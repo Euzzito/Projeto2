@@ -1,0 +1,36 @@
+ :root{
+    --font-color1: #333;
+    --font-color2: #000;
+    --font-color3: #555;
+    --font-color4: #125139;
+    --bg-color1: red;
+    --bg-color2: yellow;
+    --bg-color3: green;
+    --bg-color4: blue;
+    --bg-color:#370096;
+    --bg-color5: #008CFF;
+ }
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ body{
+    margin: 20px;
+ }
+ header{
+    background-color: var(--bg-color);
+    color:var(--front-color1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 2px 2px var(--font-color2);
+    border-radius: 100px;
+ }
+ header #logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--bg-color5) ;
+ }
